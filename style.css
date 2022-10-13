@@ -1,0 +1,84 @@
+h1{
+font-family: "roboto", sans-serif;
+font-weight: 100;
+text-align: center;
+
+}
+
+.box-shadow{
+  font-family: "roboto", sans-serif;
+  width: 800px;
+  box-shadow: 0 0 40px -8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.box-shadow,
+.box-shadow *{
+  box-sizing: border-box;
+}
+
+.box-shadow .controls{
+  padding: 8px;
+  margin: 300px;
+}
+.box-shadow .controls  {
+  font-size: 18px;
+  margin: 4px 0;
+  font-weight: normal;
+}
+
+.box-shadow .controls .grupo{
+  padding: 12px 24px;
+  margin: 8px 0;
+
+}
+
+.box-shadow .controls .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-shadow .controls .control{
+  width: 100%;
+}
+
+.box-shadow .controls input[type="color"]{
+  width: 60px;
+  height: 30px;
+}
+
+.box-shadow  .resultado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  flex: 1px;
+}
+
+.box-shadow .resultado .box{
+width: 248px;
+height: 240px;
+background: #fff;
+box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.3);
+margin-bottom: 50px;
+
+}
+
+.box-shadow .resultado .generador{
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 12px 48px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: red;
+  color: #fff;
+  cursor: p;
+
+}
